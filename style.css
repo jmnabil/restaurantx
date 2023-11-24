@@ -1,0 +1,96 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.jumbotron {
+    background: url('https://i.ibb.co/bPQrwpS/IMG-20231124-224706.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.2em;
+}
+
+#menu {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.menu-item {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.menu-item-content {
+    padding: 20px;
+}
+
+.menu-item h3 {
+    color: #343a40;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#about {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#contact {
+    background-color: #343a40;
+    color: white;
+    padding: 50px 0;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

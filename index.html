@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RestaurantX</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Quicksand -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">RestaurantX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div id="home" class="jumbotron">
+        <h1>Welcome to RestaurantX</h1>
+        <p class="lead">Delightful Cuisine to Satisfy Your Taste Buds</p>
+    </div>
+
+    <!-- Menu -->
+    <section id="menu" class="container">
+        <h2 class="text-center">Menu</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="https://i.ibb.co/YL7tP3S/irene-kredenets-6unx-GRCPg0-U-unsplash.jpg" alt="Dish 1">
+                    <div class="menu-item-content">
+                        <h3>Special Dish 1</h3>
+                        <p>Delicious description of the special dish. Enjoy the unique flavors that will tantalize your taste buds.</p>
+                        <p>$19.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="https://i.ibb.co/YL7tP3S/irene-kredenets-6unx-GRCPg0-U-unsplash.jpg" alt="Dish 2">
+                    <div class="menu-item-content">
+                        <h3>Signature Dish 2</h3>
+                        <p>Indulge in the exquisite flavors of our signature dish. It's a culinary masterpiece that will leave you craving for more.</p>
+                        <p>$24.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="https://i.ibb.co/YL7tP3S/irene-kredenets-6unx-GRCPg0-U-unsplash.jpg" alt="Dish 3">
+                    <div class="menu-item-content">
+                        <h3>Chef's Special 3</h3>
+                        <p>Experience the extraordinary with our chef's special. Each bite is a journey through delightful flavors and textures.</p>
+                        <p>$29.99</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container">
+        <h2 class="text-center">About Us</h2>
+        <p>Discover the story of RestaurantX, where passion for food meets a commitment to quality. We take pride in creating memorable dining experiences for our guests.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="contact-form">
+            <!-- Add your contact form here -->
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2023 RestaurantX. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
